@@ -40,7 +40,7 @@ def configure_connector():
                "mode": "incrementing",
                "incrementing.column.name": "stop_id",
                "topic.prefix": "com.udacity",
-               "poll.interval.ms": "",
+               "poll.interval.ms": "600000",
            }
        }),
     )
